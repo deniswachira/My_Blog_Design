@@ -5,10 +5,10 @@ function TopBar() {
   return (
     <div className='top'>
        <div className="topLeft">
-            <i class="topIcon fa-brands fa-facebook"></i>
-            <i class="topIcon fa-brands fa-twitter"></i>
-            <i class="topIcon fa-brands fa-instagram"></i>
-            <i class="topIcon fa-brands fa-linkedin"></i>
+            <a href="https://www.facebook.com/decodedblog"><i class="topIcon fa-brands fa-facebook"></i></a>
+           <a href="https://twitter.com/deniswachira_"> <i class="topIcon fa-brands fa-twitter"></i></a>
+           <a href="https://www.instagram.com/deniswachira_/"><i class="topIcon fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/denis-wachira-b4501b234/"><i class="topIcon fa-brands fa-linkedin"></i></a>
        </div>
        <div className="topCenter">
            <ul className='topList'>
